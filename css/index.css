@@ -314,12 +314,20 @@ footer p{
 
 @media(max-width: 800px) {
     .container {
-        width: 100%;
+        width: 95%;
     }
     .navigation header {
     	display: flex;
-    	background-color: white;
-
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 0;
+        padding-left: 75px;
+    }
+    .navigation header img {
+        padding-bottom: 30px;
+    }
+    .main-article {
+        padding: 10%;
     }
     .main-article h1 {
     	display: flex;
@@ -327,5 +335,8 @@ footer p{
     }
     .main-article img {
     	display: none;
+    }
+    .middle-img {
+        width: 95%;
     }
 }

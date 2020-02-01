@@ -342,6 +342,14 @@ footer p{
 }
 
 @media(max-width: 500px) {
+
+    .container {
+        padding-top: unset;
+    }
+
+    .navigation {
+        position: unset;
+    }
 	
 	.navigation header {
 		display: flex;
@@ -361,9 +369,6 @@ footer p{
 		margin-bottom: 20px;
 		margin-top: 20px
 	}
-	.main-article {
-		margin-top: 565px
-	}
 	.logo-container {
 		display: flex;
 		align-items: center;
@@ -371,5 +376,12 @@ footer p{
 		width: 140%;
 		border-bottom: 1px solid black
 
-	}
+    }
+    .content-article div {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-article section {
+        margin-bottom: 30px;
+    }
 }
